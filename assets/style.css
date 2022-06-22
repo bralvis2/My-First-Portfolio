@@ -1,4 +1,97 @@
-#header {
-    background-color: beige;
-    color:brown;
+/* Color Theme */
+:root {
+--dark-blue: #30424C;
+--torquiose: #2A6070;
+--aqua: #2191A3;
+--bby-blue: #5EBCD8;
+--light-blue: #DAF5FC;
+};
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
 }
+
+header {
+    padding: 10px;
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--dark-blue);
+    color: var(--aqua);
+    
+
+}
+header h1 {
+    display:flex;
+    background-color: var(--light-blue);
+    color: var(--dark-blue);
+    font-size: 4vh;
+    max-height: 5vh;
+    margin-top: 1vh;
+    margin-left: 2vh;
+
+}
+
+header ul li {
+    display: inline;
+    margin-left: 5px;
+    text-decoration: underline;
+    color: var(--light-blue)
+    
+}
+
+.banner {
+    padding: 5%;
+    background-image: url("../img/abstract-blue.jpg");
+    background-size:cover;
+    background-position: bottom;
+
+}
+
+#banner {
+    display: flex;
+    float: right;
+    background-color: var(--bby-blue);
+    color: var(--dark-blue);
+    max-width: 15vw;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: var(--dark-blue);
+    padding: 5%;
+    border-left-color: var(--dark-blue);
+    border-width: 5px;
+    background-color: var(--bby-blue);
+}
+
+section h1 {
+    position:relative;
+    color: var(--dark-blue);
+    padding: 5%;
+    max-width: 20%;
+    border-right-style: solid;
+    border-right-color: var(--dark-blue);
+    border-width: 5px;
+    background-color: var(--light-blue);
+    text-align: right;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: var(--torquiose);
+    color: var(--light-blue);
+    margin-top: 5%;
+}
+
+
+/* add a "if the size of the screen gets smaller than... change the header layout"*/
