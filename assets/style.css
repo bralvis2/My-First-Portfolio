@@ -1,4 +1,4 @@
-/* Color Theme */
+/* Color Aesthetic */
 :root {
 --dark-blue: #30424C;
 --torquiose: #2A6070;
@@ -12,9 +12,10 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 96%;
    
 }
-
+/* Header */
 header {
     padding: 10px;
     padding-left: 0px;
@@ -26,11 +27,12 @@ header {
 
 }
 header h1 {
-    display:flex;
+    width: 40%;
     background-color: var(--light-blue);
     color: var(--dark-blue);
-    font-size: 4vh;
-    max-height: 5vh;
+    font-size: 140%;
+    text-align: right;
+    height: 10%;
     margin-top: 1vh;
     margin-left: 2vh;
 
@@ -38,14 +40,18 @@ header h1 {
 
 header ul li {
     display: inline;
-    margin-left: 5px;
+    margin-left: 8px;
     text-decoration: underline;
     color: var(--light-blue)
     
 }
+.link{
+    color: var(--light-blue)
+}
 
+/* Banner Image */
 .banner {
-    padding: 5%;
+    padding: 10px;
     background-image: url("../img/abstract-blue.jpg");
     background-size:cover;
     background-position: bottom;
@@ -53,27 +59,28 @@ header ul li {
 }
 
 #banner {
-    display: flex;
-    float: right;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 50%;
     background-color: var(--bby-blue);
     color: var(--dark-blue);
-    max-width: 15vw;
+    width: 50%;
 }
 
+/* Main Body of the portfolio */
 .cards {
     display: flex;
     flex-direction: row;
-    margin-top: 5%;
+    margin-top: 3%;
     margin-left: 10%;
     margin-right: 10%;
     color: var(--dark-blue);
     padding: 5%;
-    border-left-color: var(--dark-blue);
-    border-width: 5px;
-    background-color: var(--bby-blue);
+   
+   
 }
 
-section h1 {
+.cate {
     position:relative;
     color: var(--dark-blue);
     padding: 5%;
@@ -81,16 +88,77 @@ section h1 {
     border-right-style: solid;
     border-right-color: var(--dark-blue);
     border-width: 5px;
-    background-color: var(--light-blue);
     text-align: right;
 }
 
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:5%;
+}
+/* Work Section Examples */
+.examples {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 200px;
+    margin: 3%;
+}
+    
+.caption {
+    background-color: #DAF5FC;
+    font-size: 10%;
+    height: 50px;
+    width: 50px;
+}
+ 
+.coming-soon {
+    padding: 10%;
+    background-image: url("../img/coming-soon.png");
+    background-size: cover;
+}
+
+#big {
+    display: inline;
+    border-style: solid;
+    border-color: var(--torquiose);
+    border-width: 2px;
+    height: 40vh;
+    width: 50vw;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5%;
+    margin-left: 8px;
+    text-decoration: underline;
+}
+
+#photo {
+    height:35%;
+    width: 25%;
+    padding: 3%;
+}
+
+#work {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 96%;
+
+}
+/* footer */
 footer {
     display: flex;
     justify-content: center;
     background-color: var(--torquiose);
     color: var(--light-blue);
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 
