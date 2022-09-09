@@ -1,0 +1,102 @@
+.container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background-color: azure;
+    margin-right: 10px;
+}
+
+h2 {
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.alvis {
+    margin-right: 10px;
+}
+
+.contents {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background-color: azure;
+    width: 80%;
+}
+
+.background {
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.work {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background-color: azure;
+    margin-right: 10px;
+}
+
+.contactContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.info{
+    margin: auto;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px){
+    .container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .title {
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }
+
+    .alvis {
+        margin: auto;
+    }
+
+    .contents {
+        width: 96%;
+    }
+
+    .contactContainer {
+        flex-direction: column;
+    }
+
+    .contact {
+        width: 100%;
+    }
+}
