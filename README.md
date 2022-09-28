@@ -1,4 +1,4 @@
-# UT-Bootcamp-Challenge-2
+# My First Portfolio
 ## Description
 This project, I attempted to recreate an example web developer portfolio. A portfolio highlights the developer's work and contact information. The application includes four main sections with clickable links within the application and one external link. My biggest challenge was with the positioning of elements and using the most efficient CSS code as possible. In the future, I'd like to improve on targeting tags in a more efficient manner.
 
