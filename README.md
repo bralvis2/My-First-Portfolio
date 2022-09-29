@@ -7,15 +7,13 @@ Deployed Application: https://bralvis2.github.io/My-First-Portfolio/
 
 In order to run this project, follow the link provided.
 Once you've landed on the application, you can click on the links at the top right of the page. Each link will take you to the appropriate section on the application. 
-In the section titled "Work" you will find one external link when you click on the google image. 
 
-![The top of the deploed application](./img/img-1.jpeg)
-![The middle portion of the deployed application](./img/img-2.jpeg)
-![The bottom portion of the deployed application](./img/img-3.jpeg)
+![The top of the deploed application](./img/img-1.png)
+![The middle portion of the deployed application](./img/img-2.png)
+![Mobil version](./img/img-3.png)
 
 ## Credits
 Thank you to Leah for teaching us and providing me with plenty of examples to reference. Thank you to the TA's Ian, Diem, and Ty for their help along the way. Additionally, thank you to my colleagues for asking questions that helped me too!
 
 Image Credits:
-Main Banner Image: https://burst.shopify.com/photos/abstract-blue?c=api-colorful
-Comming Soon Image place holder: https://www.dreamstime.com/coming-soon-blue-paint-background-isolated-white-advertising-banner-concept-image165187709
+Main Banner Image: https://www.canva.com/design/DAFNpXTwzms/Es9ruqMvxtpBd2mTTrBKqw/edit
